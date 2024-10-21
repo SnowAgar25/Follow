@@ -2,7 +2,7 @@ import { Readable } from "node:stream"
 
 import { getFeedIconSrc } from "@follow/components/utils/icon.js"
 import type { FastifyInstance } from "fastify"
-import React from "react"
+import * as React from "react"
 import uniqolor from "uniqolor"
 
 import { createApiClient, getTokenFromCookie } from "~/lib/api-client"
